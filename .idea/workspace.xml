@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b35a20-7db3-4aae-bb08-109323dc20eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thoughts/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thoughts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/feelings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelings/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/feelings/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feelings/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/feelings/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,33 +29,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
-          <entry key="py" value="2" />
+          <entry key="css" value="1" />
+          <entry key="html" value="3" />
+          <entry key="py" value="4" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="Python" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="Python" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="20" />
-          <entry key="html" value="214" />
-          <entry key="py" value="1031" />
-          <entry key="py@feelings" value="101" />
-          <entry key="txt" value="17" />
+          <entry key="css" value="56" />
+          <entry key="html" value="635" />
+          <entry key="py" value="1270" />
+          <entry key="py@feelings" value="118" />
+          <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="62" />
-          <entry key="HTML" value="214" />
-          <entry key="PLAIN_TEXT" value="56" />
-          <entry key="Python" value="1051" />
+          <entry key="CSS" value="56" />
+          <entry key="CommandLine" value="76" />
+          <entry key="HTML" value="635" />
+          <entry key="PLAIN_TEXT" value="81" />
+          <entry key="Python" value="1290" />
         </counts>
       </usages-collector>
     </session>
@@ -62,11 +69,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feelings/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+            <state relative-caret-position="301">
+              <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -75,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/thoughts/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
-              <caret line="35" column="107" lean-forward="true" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
+              <caret line="35" column="107" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
                 <marker date="1535525577423" expanded="true" signature="602:689" ph="..." />
@@ -99,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+            <state relative-caret-position="239">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               <folding>
                 <element signature="e#2588#2594#0#HTML" expanded="true" />
               </folding>
@@ -126,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feelings/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="315">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#632#664#0" expanded="true" />
               </folding>
@@ -136,10 +152,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+        <entry file="file://$PROJECT_DIR$/users/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="51">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/feelings.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -152,12 +186,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/feelings/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/thoughts/admin.py" />
         <option value="$PROJECT_DIR$/thoughts/models.py" />
         <option value="$PROJECT_DIR$/feelings/settings.py" />
+        <option value="$PROJECT_DIR$/users/urls.py" />
+        <option value="$PROJECT_DIR$/feelings/urls.py" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/assets/css/feelings.css" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
       </list>
     </option>
   </component>
@@ -188,6 +225,17 @@
             <path>
               <item name="feelings" type="b2602c69:ProjectViewProjectNode" />
               <item name="feelings" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feelings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feelings" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feelings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feelings" type="462c0819:PsiDirectoryNode" />
               <item name="feelings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -198,7 +246,18 @@
             <path>
               <item name="feelings" type="b2602c69:ProjectViewProjectNode" />
               <item name="feelings" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feelings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feelings" type="462c0819:PsiDirectoryNode" />
               <item name="thoughts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feelings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feelings" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535522085154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic thoughts app with admin">
+      <created>1535525902554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535525902554</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -282,13 +348,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.50213677" side_tool="true" weight="0.24965326" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.24965326" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49786323" weight="0.24965326" />
       <window_info id="Structure" order="1" sideWeight="0.50213677" side_tool="true" weight="0.24965326" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" sideWeight="0.49930653" weight="0.3295129" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.58391124" weight="0.3295129" />
       <window_info anchor="bottom" id="Python Console" sideWeight="0.49791956" weight="0.3295129" />
-      <window_info anchor="bottom" id="manage.py@feelings" visible="true" weight="0.3295129" />
+      <window_info anchor="bottom" id="manage.py@feelings" weight="0.3295129" />
       <window_info anchor="bottom" id="Terminal" sideWeight="0.49930653" weight="0.3295129" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.41608876" side_tool="true" weight="0.3295129" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -304,6 +370,30 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" sideWeight="0.50213677" side_tool="true" weight="0.24965326" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49786323" visible="true" weight="0.24965326" />
+      <window_info id="Structure" order="2" sideWeight="0.50213677" side_tool="true" weight="0.24965326" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="manage.py@feelings" order="1" visible="true" weight="0.3295129" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49930653" weight="0.3295129" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.41608876" side_tool="true" weight="0.3295129" />
+      <window_info anchor="bottom" id="Database Changes" order="4" sideWeight="0.49930653" weight="0.3295129" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.58391124" weight="0.3295129" />
+      <window_info anchor="bottom" id="Python Console" order="6" sideWeight="0.49791956" weight="0.3295129" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" sideWeight="0.49930653" weight="0.3295129" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -364,7 +454,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic templates" />
+    <MESSAGE value="Basic thoughts app with admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic thoughts app with admin" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -374,10 +465,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feelings/urls.py">
+    <entry file="file://$PROJECT_DIR$/thoughts/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thoughts/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <caret line="35" column="107" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1535525577423" expanded="true" signature="602:689" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feelings/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feelings/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
           </folding>
@@ -397,41 +523,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/feelings.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        <state relative-caret-position="239">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           <folding>
             <element signature="e#2588#2594#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoughts/admin.py">
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thoughts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="35" column="107" lean-forward="true" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <marker date="1535525577423" expanded="true" signature="602:689" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feelings/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
